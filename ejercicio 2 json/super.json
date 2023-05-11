@@ -1,0 +1,108 @@
+{
+  "supermercados": [
+    {
+      "nombre": "Supermercado A",
+      "direccion": "Calle 1, 123",
+      "geolocalizacion": {
+        "latitud": 40.000,
+        "longitud": -3.000
+      },
+      "productos": [
+        {
+          "nombre": "Leche",
+          "unidad_de_medida": "litro",
+          "marca": "Pascual",
+          "precio": 0.80
+        },
+        {
+          "nombre": "Pan",
+          "unidad_de_medida": "unidad",
+          "marca": "Bimbo",
+          "precio": 0.50
+        }
+      ],
+      "ofertas": [
+        {
+          "producto": "Leche",
+          "porcentaje_de_descuento": 0.10,
+          "periodo_de_vigencia": {
+            "inicio": "2023-04-01",
+            "fin": "2023-04-30"
+          }
+        }
+      ]
+    },
+    {
+      "nombre": "Supermercado B",
+      "direccion": "Calle 2, 456",
+      "geolocalizacion": {
+        "latitud": 40.100,
+        "longitud": -3.100
+      },
+      "productos": [
+        {
+          "nombre": "Huevos",
+          "unidad_de_medida": "docena",
+          "marca": "Casa Grande",
+          "precio": 1.50
+        },
+        {
+          "nombre": "Pan",
+          "unidad_de_medida": "unidad",
+          "marca": "Martínez",
+          "precio": 0.60
+        }
+      ],
+      "ofertas": [
+        {
+          "producto": "Pan",
+          "porcentaje_de_descuento": 0.20,
+          "periodo_de_vigencia": {
+            "inicio": "2023-04-10",
+            "fin": "2023-04-15"
+          }
+        }
+      ]
+    }
+  ],
+  "listas_de_compra": [
+    {
+      "supermercado": "Supermercado A",
+      "productos_a_comprar": [
+        {
+          "producto": "Leche",
+          "unidades": 2,
+          "adquirido": false,
+          "precio_unitario": 0.80,
+          "precio_total": 1.60
+        },
+        {
+          "producto": "Pan",
+          "unidades": 1,
+          "adquirido": true,
+          "precio_unitario": 0.50,
+          "precio_total": 0.50
+        }
+      ]
+    },
+    {
+      "supermercado": "Supermercado B",
+      "productos_a_comprar": [
+        {
+          "producto": "Huevos",
+          "unidades": 1,
+          "adquirido": false,
+          "precio_unitario": 1.50,
+          "precio_total": 1.50
+        },
+        {
+          "producto": "Pan",
+          "unidades": 2,
+          "adquirido": false,
+          "precio_unitario": 0.60,
+          "precio_total": 1.20
+        }
+      ]
+    }
+  ]
+}

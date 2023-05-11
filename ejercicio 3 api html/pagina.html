@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reproducción de vídeo con Media Source</title>
+	<link rel="stylesheet" type="text/css" href="pagina.css">
+  </head>
+  <body>
+    <div>
+      <h1>Reproducción de vídeo con Media Source</h1>
+      <input type="file" id="fileInput">
+	  <video id="videoPlayer" width="640" height="360" controls>
+	     <source id="videoSource" src="" type="video/mp4">
+	     Tu navegador no soporta la reproducción de video.
+	  </video>
+
+	  <div id="loadingMsg" style="display:none;">Cargando video...</div>
+	  <div>
+      <div>
+        <button id="playBtn" style="color: blue; background-color: orange;">Play</button>
+        <button id="pauseBtn" style="color: blue; background-color: orange;">Pause</button>
+        <button id="volUpBtn" style="color: blue; background-color: orange;">Subir volumen</button>
+        <button id="volDownBtn" style="color: blue; background-color: orange;">Bajar volumen</button>
+      </div>
+    </div>
+
+	  <script src="pagina.js"></script>
+  </body>
+</html>

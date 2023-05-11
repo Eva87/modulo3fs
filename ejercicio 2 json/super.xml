@@ -1,0 +1,32 @@
+<supermercado>
+  <nombre>Supermercado A</nombre>
+  <direccion>Calle 1, 123</direccion>
+  <geolocalizacion>
+    <latitud>40.000</latitud>
+    <longitud>-3.000</longitud>
+  </geolocalizacion>
+  <productos>
+    <producto>
+      <nombre>Leche</nombre>
+      <unidad_de_medida>litro</unidad_de_medida>
+      <marca>Pascual</marca>
+      <precio>0.80</precio>
+    </producto>
+    <producto>
+      <nombre>Pan</nombre>
+      <unidad_de_medida>unidad</unidad_de_medida>
+      <marca>Bimbo</marca>
+      <precio>0.50</precio>
+    </producto>
+  </productos>
+  <ofertas>
+    <oferta>
+      <producto>Leche</producto>
+      <porcentaje_de_descuento>0.10</porcentaje_de_descuento>
+      <periodo_de_vigencia>
+        <inicio>2023-04-01</inicio>
+        <fin>2023-04-30</fin>
+      </periodo_de_vigencia>
+    </oferta>
+  </ofertas>
+</supermercado>
